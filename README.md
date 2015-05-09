@@ -8,7 +8,7 @@ codemirror-anywhere for Greasemonkey.
 
 ## Installation
 
-Install from [codemirror-anywhere.user.js](./codemirror-anywhere.user.js)
+Install from [codemirror-anywhere.user.js](https://github.com/azu/codemirror-anywhere/raw/master/codemirror-anywhere.user.js)
 
 ## Usage
 
