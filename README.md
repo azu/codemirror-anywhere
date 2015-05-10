@@ -6,6 +6,8 @@ codemirror-anywhere for Greasemonkey.
 
 ![img2](http://i.gyazo.com/990c553552be3ca673e815c777c3f8b2.gif)
 
+![img3](http://gyazo.com/003a690ade95e7a84b3f06de1c0ac508.gif)
+
 ## Installation
 
 Install from [codemirror-anywhere.user.js](https://github.com/azu/codemirror-anywhere/raw/master/codemirror-anywhere.user.js)
