@@ -61,13 +61,15 @@ function boot(textarea) {
     require("codemirror/addon/edit/continuelist.js");
     insertOnce();
 
+    var restoreTextArea = function (cm) {
+        var textarea = cm.getTextArea();
+        var toTextArea = cm.toTextArea();
+        textarea.focus();
+        return false;
+    };
     var extraKeys = {
-        "Cmd-E": function (cm) {
-            var textarea = cm.getTextArea();
-            cm.toTextArea();
-            textarea.focus();
-            return false;
-        },
+        "Cmd-E": restoreTextArea,
+        "Ctrl-E": restoreTextArea,
         "Cmd-Enter": function (cm) {
             var textarea = cm.getTextArea();
             var keyEvent = new KeyboardEvent("keydown", {
@@ -14409,7 +14411,7 @@ exports.binarySearch = binarySearch;
 
 var textAreaList = Array.from(document.getElementsByTagName("textarea"));
 function textAreaHandler(event) {
-    var isMetaKey = event.metaKey;
+    var isMetaKey = event.metaKey || event.ctrlKey;
     if (isMetaKey && event.key === "e") {
         require("./boot-codemirror")(event.target);
     }
