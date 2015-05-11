@@ -14,7 +14,7 @@ Install from [codemirror-anywhere.user.js](https://github.com/azu/codemirror-any
 
 ## Usage
 
-1. focus any `<textrea>`
+1. focus any `<textarea>`
 2. Press Cmd+E or Ctrl+E
     - toggle Cmd+E or Ctrl+E
 3. replace textarea with CodeMirror
