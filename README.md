@@ -12,7 +12,9 @@ This script also support formatter by [prettier](http://prettier.io/)
 
 Install from [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anywhere/codemirror-anywhere.user.js)
 
-Dependencies:
+- [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anywhere/codemirror-anywhere.user.js)
+
+***Dependencies:**
 
 You need to install Greasemonkey extension before installing this script.
 
