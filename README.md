@@ -1,6 +1,8 @@
 # codemirror-anywhere
 
-Lunch codemirror in anywhere!
+Write syntax highlighted Markdown in anywhere.
+
+This script also support formatter by [prettier](http://prettier.io/)
 
 ![img1](http://i.gyazo.com/c29a9a3535c66083827cba81181bd5c1.gif)
 
