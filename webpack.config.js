@@ -1,12 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
 const version = require("./package.json").version;
-module.exports = {
-    plugins: [
-        new webpack.BannerPlugin({
-            raw: true,
-            entryOnly: true,
-            banner: `// ==UserScript==
+const banner = `/*!
+// ==UserScript==
 // @name        codemirror-anywhere
 // @namespace   http://efcl.info/
 // @description codemirror-anywhere
@@ -15,7 +11,13 @@ module.exports = {
 // @version     ${version}
 // @grant       none
 // ==/UserScript==
-`
+*/`;
+module.exports = {
+    plugins: [
+        new webpack.BannerPlugin({
+            raw: true,
+            entryOnly: true,
+            banner: banner
         })
     ],
     module: {

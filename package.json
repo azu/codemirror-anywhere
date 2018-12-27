@@ -12,13 +12,13 @@
     "url": "https://github.com/azu/codemirror-anywhere/issues"
   },
   "version": "1.0.0",
-  "description": "Greasemonkey script - anywhere",
+  "description": "[Greasemonkey] Lunch codemirror in anywhere",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack",
     "watch": "webpack --mode development --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -34,6 +34,7 @@
     "css-loader": "^2.1.0",
     "gh-pages": "^2.0.1",
     "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.2.0",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
   },

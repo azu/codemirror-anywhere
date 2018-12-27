@@ -1,6 +1,6 @@
 # codemirror-anywhere
 
-codemirror-anywhere for Greasemonkey.
+Lunch codemirror in anywhere!
 
 ![img1](http://i.gyazo.com/c29a9a3535c66083827cba81181bd5c1.gif)
 
@@ -10,15 +10,19 @@ codemirror-anywhere for Greasemonkey.
 
 ## Installation
 
-Install from [codemirror-anywhere.user.js](https://github.com/azu/codemirror-anywhere/raw/master/codemirror-anywhere.user.js)
+Install from [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anywhere/codemirror-anywhere.user.js)
 
 ## Usage
 
-1. focus any `<textarea>`
-2. Press Cmd+E or Ctrl+E
-    - toggle Cmd+E or Ctrl+E
-3. replace textarea with CodeMirror
-    - Press Cmd+E or Ctrl+E to back
+1. Focus any `<textarea>`
+2. Press <kbd>Cmd+E</kbd> or <kbd>Ctrl+E</kbd>
+    - Toggle textarea with CodeMirror
+3. Press <kbd>Cmd+E</kbd> or <kbd>Ctrl+E</kbd>
+    - Restore textarea from CodeMirror
+
+## Shortcut
+
+- <kbd>Cmd+Alt+F</kbd>: Apply [prettier](http://prettier.io/)
 
 ## Contributing
 
