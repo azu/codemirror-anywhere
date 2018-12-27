@@ -14,7 +14,7 @@ Install from [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anyw
 
 - [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anywhere/codemirror-anywhere.user.js)
 
-***Dependencies:**
+**Dependencies:**
 
 You need to install Greasemonkey extension before installing this script.
 
