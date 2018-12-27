@@ -18,20 +18,28 @@
     "test": "test"
   },
   "scripts": {
-    "build": "browserify -t brfs lib/codemirror-anywhere.user.js",
-    "watch": "watchify --debug -t brfs lib/codemirror-anywhere.user.js"
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "greasemonkey"
   ],
   "devDependencies": {
-    "brfs": "^1.4.0",
-    "browserify": "^10.1.3",
-    "insert-css": "^0.2.0",
-    "watchify": "^3.2.1"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.0",
+    "gh-pages": "^2.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "codemirror": "^5.2.0",
+    "prettier": "^1.15.3",
     "structured-source": "^3.0.2"
   }
 }
