@@ -8,11 +8,17 @@ This script also support formatter by [prettier](http://prettier.io/)
 
 ![img2](http://i.gyazo.com/990c553552be3ca673e815c777c3f8b2.gif)
 
-![img3](http://gyazo.com/003a690ade95e7a84b3f06de1c0ac508.gif)
-
 ## Installation
 
 Install from [codemirror-anywhere.user.js](https://azu.github.io/codemirror-anywhere/codemirror-anywhere.user.js)
+
+Dependencies:
+
+You need to install Greasemonkey extension before installing this script.
+
+- [Greasemonkey – Firefox](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/ "Greasemonkey – Get this Extension for 🦊 Firefox (ja)")
+- [Tampermonkey - Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)
+
 
 ## Usage
 
